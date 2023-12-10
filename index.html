@@ -14,11 +14,16 @@
 </head>
 <body>
     <h1>Une page avec PyScript</h1>
-    <p><script type="py">
-        from pyscript import display
-        display("Bonjour le web") # s'affiche dans le DOM    
-    </script></p>
-    <img src="https://pyscript.github.io/docs/2023.12.1/assets/images/pyscript.svg">
+    <p>
+        <strong>
+            <script type="py">
+                from pyscript import display
+                for _ in range(10) :
+                    display("Bonjour le web") # s'affiche dans le DOM
+            </script>
+        </strong>
+    </p>
+    <img src="https://pyscript.github.io/docs/2023.12.1/assets/images/pyscript.svg" width=60%>
     <script type="py" terminal>
         print("Bonjour le terminal") # s'affiche dans le terminal
     </script>   
