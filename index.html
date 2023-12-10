@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web avec PyScript</title>
+
+    <!-- Pour appliquer le CSS de PyScript -->  
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.12.1/core.css">
+    <!-- Pour amorcer PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2023.12.1/core.js"></script>
+    
+
+</head>
+<body>
+    <script type="py" terminal>
+        from pyscript import display
+        display("Bonjour le web") # s'affiche dans le DOM
+        print("Bonjour le terminal") # s'affiche dans le terminal
+    </script>    
+</body>
+</html>
